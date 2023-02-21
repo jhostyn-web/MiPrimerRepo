@@ -4,3 +4,4 @@ articulos
 fotos
 pie}
 comentario
+falta realizar el inicio de sesion
