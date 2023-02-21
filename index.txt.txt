@@ -4,4 +4,4 @@ articulos
 fotos
 pie}
 comentario
-falta realizar el inicio de sesion
+ya se realizo el inicio de sesion
