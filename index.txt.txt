@@ -1,7 +1,0 @@
-MENU
-historia
-articulos 
-fotos
-pie}
-comentario
-ya se realizo el inicio de sesion
