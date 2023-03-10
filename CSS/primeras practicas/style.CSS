@@ -1,0 +1,61 @@
+:root{
+    --miVariable: rgba(146, 75, 5, 0.795);
+    --variable2: 25px;
+}/*las variables sirven para modificar textos,imagenes,color,tipo de fuentes etc, en varias lineas a las vez*/
+
+
+/*Selectores HTML*//* Hola soy Jhostyn*/
+h1{
+    color: var(--miVariable);
+    background-color: rgb(0, 200, 255);
+    font-style: oblique;/*tipografia con un estilo de letra cursiva*/
+}
+
+/*Parrafos*/
+p{
+    color: rgb(16, 191, 16);
+    background-color: rgb(3, 3, 3);
+}
+
+/*body con background cambia el color de fondo de la pagina*/
+body{
+    background-color:indigo;
+}
+
+
+/*SELECTOR ID*//*el lorem*/
+#Principal{
+    background-color: greenyellow;
+    font-family:'Shantell Sans', cursive;
+    color: brown;
+    text-align: center;
+    font-style: italic;
+}
+
+#Imagen1{
+border-radius:var(--variable2);/*cambia el borde de una imagen en los px deseados*/
+height: 100px;
+height: 300px;
+}
+
+/*SELECTOR CLASS*/
+
+/*segundo y cuarto parrafo*/
+.Pares{
+    color: rgb(255, 111, 8);/*cambia el color del texto o del parrafo*/
+    font-size: 15px;/*medida de una imagen en px*/
+    background-color:rgba(0, 0, 255, 0.358);/*cambia el color de fondo del textoo parrafo*/
+    text-align: left; /*para mover los textos o centrarlos*/
+}
+
+/*tercero y quinto parrafo*/
+.Impares {
+    color: grey;
+    font-size: var(--variable2);/*importante el (;) al final de cada linea o variable, en este caso se aplica tambien una variable para el tamaño del texto*/
+    text-align: center;
+    font-weight: 900;/*es para dar grosor a las palabras*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/*para cambiar a otro tipo de fuente*/
+}
+
+
+

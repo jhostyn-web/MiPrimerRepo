@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    top: 0px;
+}
+
+body{
+    background-image:  url(css.jpg);
+}
+
+main{ 
+    background-color: rgba(66, 116, 119, 0.684)
+    }
+
+div{
+    background-color: rgb(5, 57, 76);
+    color: rgb(235, 240, 237);
+}
+
+/*MARGENES O MARGIN*(se inicia en direccion a las agujas del reloj, 4 lados; superior,derecho,bajo e izquiero)/
+    #Caja_1{
+    margin: 10px 30px;
+}
+
+/*MARGEN GLOBAL (4 lados)*/
+#Caja_2{
+    margin: 50px;/*mismos px de todos los lados*/
+}
+
+/*MARGEN INDIVDUAL*/
+#Caja_3{
+    margin: 5px 10px 80px 40px;
+}
+
+#Caja_4{
+    width: 100px;
+    height: 100px;
+    padding: 10px 30px;
+    margin: 50px;
+}
+
+#Caja_5{
+    height: 100px;/*alto*/
+    width: 200px;/*ancho*/
+    margin: 50px 250px;/*margen*/
+    padding: 30px 15px;/*relleno*/
+    border-width: 40px;/* grosor del borde*/
+    border-radius: 10px ;/*esquinas redondeadas*/
+    border-color: rgba(55, 243, 3, 0.889);/*color del borde*/
+    border-style: solid;/*borde solido pero hay varios tipos de bordes como bordes dobles(double) etc*/
+}
+
